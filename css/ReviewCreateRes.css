@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../CSS/ReviewCreate.css">
+<meta charset="UTF-8">
+<link href='http://serve.fontsproject.com/css?family=Simple+CLM:400' rel='stylesheet' type='text/css'>
+
+</head>
+
+      <body id="content">
+      <div class="col-3 col-s-12">
+        <div class="background">
+          <div class="transbox">
+            <p>  <h1 id="content"> יצירת חוות דעת </h1>  </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-s-12">
+        <p><br> <br>
+        הערה: אנא כתבו חוות דעת עניינית וכנה. <br>
+        חוות דעת עם שפה לא נאותה ימחקו על ידי מנהלי האתר
+      </p> <br><br>
+    </div>
+
+        <form action="/action_page.php" >
+        <div class="col-3 col-s-12">
+        <p>
+          <input type="text" name="firstname"> :שם<br> </p>
+
+        <p><br>
+        </div>
+        <div class="col-3 col-s-12">
+        בחרו את סוג המשתמש עליו תרצו לחוות חוות דעת <br><br>
+
+        בעלים   <input type="radio" name="type" value="owner">
+        מתנדב  <input type="radio" name="type" value="volunteer">
+        חיית מחמד  <input type="radio" name="type" value="pet">
+
+        <br></p>
+        <br> <br>
+      </div>
+        <div class="col-3 col-s-12">
+        <p id="reviewbox" >
+
+        :אנא מלאו את חוות הדעת שלכם כאן <br><br>
+          <textarea name="review" rows="10" cols="50"> </textarea> <br>
+        </p><br><br>
+      </div>
+        <div class="col-3 col-s-12">
+        <p>
+          אנא דרגו את המשתמש על פי דעתכם <br>
+          1= נמוך מאוד <br>
+          5= גבוה מאוד <br>
+        </div>
+      <div class="col-3 col-s-12">
+        <div class="rate">
+          <input type="radio" id="star5" name="rate" value="5" />
+          <label for="star5" title="text">5 stars</label>
+          <input type="radio" id="star4" name="rate" value="4" />
+          <label for="star4" title="text">4 stars</label>
+          <input type="radio" id="star3" name="rate" value="3" />
+          <label for="star3" title="text">3 stars</label>
+          <input type="radio" id="star2" name="rate" value="2" />
+          <label for="star2" title="text">2 stars</label>
+          <input type="radio" id="star1" name="rate" value="1" />
+          <label for="star1" title="text">1 star</label>
+        </div>
+      </div>
+      <div class="col-3 col-s-12">
+        <input type="submit" value="Submit" name="שלח">
+      </div>
+
+
+     </form>
+
+
+  </body>
+  </html>

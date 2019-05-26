@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  text-align: center;
+  background-color: lightblue;
+}
+
+#content p {
+  font-family: 'Simple CLM', serif;
+}
+#content {
+  font-family: 'Simple CLM', serif;
+
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.background {
+  background: url("../images/pet.jpg") repeat;
+  border: 2px solid black;
+}
+
+
+
+h1{
+  font-family: 'Simple CLM', serif;
+  color:rgb(255, 165, 0);
+  font-size: 80px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+textarea{
+  text-align: right;
+  border: solid;
+  direction: rtl;
+}
+
+.dropdown-picker{
+  width: 300px;
+}
+
+.dropdown-menu {
+  left: 50% !important;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
